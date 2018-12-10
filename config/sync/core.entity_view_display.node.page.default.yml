@@ -1,28 +1,28 @@
-uuid: 6c048de9-6dca-40fc-b13f-5b57088c16fd
+uuid: 31fb968b-68b9-401d-9c31-13628a02d7aa
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.field_body
+    - field.field.node.page.body
     - node.type.page
   module:
     - text
     - user
+_core:
+  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
 id: node.page.default
 targetEntityType: node
 bundle: page
 mode: default
 content:
-  field_body:
-    weight: 101
+  body:
     label: hidden
-    settings: {  }
-    third_party_settings: {  }
     type: text_default
-    region: content
-  links:
     weight: 100
     region: content
     settings: {  }
     third_party_settings: {  }
+  links:
+    weight: 101
+    region: content
 hidden: {  }
