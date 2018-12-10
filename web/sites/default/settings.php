@@ -35,9 +35,10 @@ if (file_exists($local_settings)) {
  * Always install the 'standard' profile to stop the installer from
  * modifying settings.php.
  */
-$settings['install_profile'] = 'config_installer';
+$settings['install_profile'] = 'minimal';
 
 // Automatically generated include for settings managed by ddev.
 if (file_exists($app_root . '/' . $site_path . '/settings.ddev.php')) {
   include $app_root . '/' . $site_path . '/settings.ddev.php';
 }
+$config_directories['sync'] = '/var/www/html/config/sync';
