@@ -14,7 +14,7 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
  *      a local development environment, to ensure that
  *      the site settings remain consistent.
  */
-include __DIR__ . "/settings.pantheon.php";
+require __DIR__ . "/settings.pantheon.php";
 
 /**
  * Place the config directory outside of the Drupal root.
@@ -28,7 +28,7 @@ $config_directories = array(
  */
 $local_settings = __DIR__ . "/settings.local.php";
 if (file_exists($local_settings)) {
-  include $local_settings;
+    include $local_settings;
 }
 
 /**
@@ -39,6 +39,6 @@ $settings['install_profile'] = 'minimal';
 
 // Automatically generated include for settings managed by ddev.
 if (file_exists($app_root . '/' . $site_path . '/settings.ddev.php')) {
-  include $app_root . '/' . $site_path . '/settings.ddev.php';
+    include $app_root . '/' . $site_path . '/settings.ddev.php';
 }
-$config_directories['sync'] = '/var/www/html/config/sync';
+$config_directories['sync'] = '../config/sync';
