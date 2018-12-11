@@ -1,0 +1,20 @@
+uuid: 91637318-ca55-4600-a27c-dca8b04c7880
+langcode: en
+status: true
+dependencies:
+  theme:
+    - aten_bulma
+_core:
+  default_config_hash: BWwkdW0oRw1FISxYL0WxXQF6k9OHyNeRMk_DqwlF4MU
+id: aten_bulma_page_title
+theme: aten_bulma
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

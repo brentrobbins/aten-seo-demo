@@ -1,0 +1,26 @@
+uuid: bafe2854-0d2e-49cf-8aeb-6b19789fa7f6
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - aten_bulma
+_core:
+  default_config_hash: q1w3X7nYhzKcWFTRMSF8Qxi-1ZxBWkTWzk_2sJl6J48
+id: aten_bulma_tools
+theme: aten_bulma
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

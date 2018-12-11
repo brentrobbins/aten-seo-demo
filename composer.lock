@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c38494ed06f09329bf5740a404bd7204",
+    "content-hash": "22272e1c24b80d00179fc379d6899905",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1276,6 +1276,57 @@
                 "source": "http://cgit.drupalcode.org/adminimal_theme"
             },
             "time": "2017-07-08T17:49:05+00:00"
+        },
+        {
+            "name": "drupal/bulma",
+            "version": "1.0.0-alpha4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/bulma",
+                "reference": "8.x-1.0-alpha4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bulma-8.x-1.0-alpha4.zip",
+                "reference": "8.x-1.0-alpha4",
+                "shasum": "6cf18dfdcdb7242a818b3c305acc36b7dae94ba9"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha4",
+                    "datestamp": "1535572380",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "nedjo",
+                    "homepage": "https://www.drupal.org/user/4481"
+                },
+                {
+                    "name": "valic",
+                    "homepage": "https://www.drupal.org/user/980550"
+                }
+            ],
+            "description": "Built to use Bulma, a modern CSS framework based on Flexbox.",
+            "homepage": "https://www.drupal.org/project/bulma",
+            "support": {
+                "source": "http://cgit.drupalcode.org/bulma"
+            }
         },
         {
             "name": "drupal/config_direct_save",
@@ -7479,6 +7530,7 @@
     "minimum-stability": "alpha",
     "stability-flags": {
         "drupal/adminimal_theme": 20,
+        "drupal/bulma": 15,
         "drupal/field_group": 20,
         "drupal/simple_block": 10
     },

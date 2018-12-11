@@ -1,0 +1,22 @@
+uuid: 0ec173da-e1ea-43d7-a1ea-f124246573c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - aten_bulma
+_core:
+  default_config_hash: bIz_Vo9rRM045Zi95Vt5pFSrJtGBQgpkSJqfNdG6L2c
+id: aten_bulma_help
+theme: aten_bulma
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

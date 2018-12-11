@@ -1,0 +1,25 @@
+uuid: b96c4289-c29f-4225-9ec3-24a4ac2a4c21
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - aten_bulma
+_core:
+  default_config_hash: 8WaOlOb81KT-JmAMNF15A9quNyl4Mi7qkg8Y_ZWlTTg
+id: aten_bulma_branding
+theme: aten_bulma
+region: navbar_branding
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: false
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

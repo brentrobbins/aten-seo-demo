@@ -1,0 +1,7 @@
+global:
+  css:
+    theme:
+      assets/overrides.css: {}
+      assets/aten_bulma.style.css: {}
+  dependencies:
+    - bulma/global

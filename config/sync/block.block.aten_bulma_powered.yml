@@ -1,0 +1,22 @@
+uuid: 69195ddb-750e-4333-b921-7de1d51e0d68
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - aten_bulma
+_core:
+  default_config_hash: 5VzKvmdh9m20HpV980WV7Z7352yTSLMsUkZSlM0NMig
+id: aten_bulma_powered
+theme: aten_bulma
+region: footer
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

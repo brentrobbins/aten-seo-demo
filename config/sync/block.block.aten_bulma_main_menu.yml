@@ -1,0 +1,26 @@
+uuid: 057dbdc3-11d0-46ee-843a-e03069eef8c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - aten_bulma
+_core:
+  default_config_hash: by8K4UZsiKQQevTZwXvjKguaYNlRlY9PQIadJqVDe7s
+id: aten_bulma_main_menu
+theme: aten_bulma
+region: primary_menu
+weight: 1
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

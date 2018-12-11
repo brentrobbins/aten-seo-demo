@@ -1,0 +1,22 @@
+uuid: de34a076-791d-4d0b-8dd3-b23b14bf70e8
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - aten_bulma
+_core:
+  default_config_hash: k3O5XWApjTyE4nesdLYkx3y2yYuQh5jJUmVj62LdSdE
+id: aten_bulma_search
+theme: aten_bulma
+region: header_search
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+visibility: {  }

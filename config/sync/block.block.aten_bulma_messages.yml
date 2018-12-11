@@ -1,0 +1,22 @@
+uuid: 4ade4e49-a02f-4188-af72-a852072c17d7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - aten_bulma
+_core:
+  default_config_hash: OtsfjnInSYoglZGq7AJZ34q5Jg3ZLUIvwHYtCNJo1Qw
+id: aten_bulma_messages
+theme: aten_bulma
+region: help
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

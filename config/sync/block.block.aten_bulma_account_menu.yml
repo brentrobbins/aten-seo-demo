@@ -1,0 +1,26 @@
+uuid: 2b49ef1f-fe5e-401c-96c8-65eb66adabd1
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - aten_bulma
+_core:
+  default_config_hash: HSpbPzrjYJwNn1kF1Gco1xnbLSG_rN4cPmQxITb9lWE
+id: aten_bulma_account_menu
+theme: aten_bulma
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '1'
+  level: 1
+  depth: 1
+visibility: {  }

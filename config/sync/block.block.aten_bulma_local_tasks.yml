@@ -1,0 +1,22 @@
+uuid: 2cde884d-046a-4cb0-93ab-0e24b0bfb6a0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - aten_bulma
+_core:
+  default_config_hash: KfwZM8coW543PKC1Sfgoi-b3ZT5BGRH4sqFK0I5XRZ4
+id: aten_bulma_local_tasks
+theme: aten_bulma
+region: header_tabs
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

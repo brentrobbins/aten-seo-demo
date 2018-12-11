@@ -1,0 +1,22 @@
+uuid: 4d9b9a80-d916-44b5-a618-dcb4644bb80f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - aten_bulma
+_core:
+  default_config_hash: 1VvgmOyy4otYH-u1QDtHBd1fuIAWMnrHfM6DmOMk8xo
+id: aten_bulma_content
+theme: aten_bulma
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
