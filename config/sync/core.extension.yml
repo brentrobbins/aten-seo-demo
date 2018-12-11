@@ -29,6 +29,14 @@ module:
   link: 0
   media: 0
   menu_ui: 0
+  metatag: 0
+  metatag_facebook: 0
+  metatag_mobile: 0
+  metatag_open_graph: 0
+  metatag_open_graph_products: 0
+  metatag_twitter_cards: 0
+  metatag_verification: 0
+  metatag_views: 0
   node: 0
   options: 0
   page_cache: 0
@@ -50,6 +58,10 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  xmlsitemap: 0
+  xmlsitemap_custom: 0
+  xmlsitemap_engines: 0
+  yoast_seo: 0
   menu_link_content: 1
   pathauto: 1
   views: 10
