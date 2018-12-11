@@ -1,17 +1,17 @@
-uuid: 5d23bbb0-76e9-4e2d-b23b-5aa0a306adcb
+uuid: 232906e1-0dd9-4ac0-bf13-c99def6afe56
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
   module:
     - system
   theme:
-    - bartik
+    - bootstrap4_aten
 _core:
   default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
-id: bartik_footer
-theme: bartik
+id: bootstrap4_aten_footer
+theme: bootstrap4_aten
 region: footer_fifth
 weight: 0
 provider: null

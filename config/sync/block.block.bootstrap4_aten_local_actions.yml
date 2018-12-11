@@ -1,13 +1,13 @@
-uuid: c6c6c6ac-c631-49f3-a3e9-567bcf3516df
+uuid: 222ea33a-fa26-412f-b1e2-a655f1a0b392
 langcode: en
 status: true
 dependencies:
   theme:
-    - bartik
+    - bootstrap4_aten
 _core:
   default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
-id: bartik_local_actions
-theme: bartik
+id: bootstrap4_aten_local_actions
+theme: bootstrap4_aten
 region: content
 weight: -20
 provider: null

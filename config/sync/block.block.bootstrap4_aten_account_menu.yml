@@ -1,17 +1,17 @@
-uuid: 42e71944-2a2b-47c8-aefa-b45676fe912b
+uuid: 270001ba-d9bb-40e8-b3a5-f4b2f0fae502
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
   module:
     - system
   theme:
-    - bartik
+    - bootstrap4_aten
 _core:
   default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
-id: bartik_account_menu
-theme: bartik
+id: bootstrap4_aten_account_menu
+theme: bootstrap4_aten
 region: secondary_menu
 weight: 0
 provider: null

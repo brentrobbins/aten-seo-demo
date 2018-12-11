@@ -1,15 +1,15 @@
-uuid: 29d2b6f5-ce29-48fd-9586-2982eb5d3919
+uuid: a494391a-9566-46a1-bd83-6b660455575e
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - bootstrap4_aten
 _core:
   default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
-id: bartik_breadcrumbs
-theme: bartik
+id: bootstrap4_aten_breadcrumbs
+theme: bootstrap4_aten
 region: breadcrumb
 weight: 0
 provider: null
