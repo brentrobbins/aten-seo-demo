@@ -73,6 +73,7 @@ theme:
   bartik: 0
   bulma: 0
   aten_bulma: 0
+  bootstrap_barrio: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
