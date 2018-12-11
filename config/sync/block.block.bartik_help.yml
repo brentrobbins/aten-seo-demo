@@ -1,15 +1,15 @@
-uuid: 1c213059-af3b-42e9-b30c-3ffe22b207c1
+uuid: 82cf5546-8273-4879-9197-671ad7b94973
 langcode: en
 status: true
 dependencies:
   module:
     - help
   theme:
-    - bootstrap4_aten
+    - bartik
 _core:
   default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
-id: bootstrap4_aten_help
-theme: bootstrap4_aten
+id: bartik_help
+theme: bartik
 region: content
 weight: -30
 provider: null

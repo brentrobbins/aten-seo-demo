@@ -1,8 +1,0 @@
-uuid: f8eb4292-e862-492d-88f0-9a7ab947b175
-langcode: en
-status: true
-dependencies: {  }
-id: bootstrap4_aten_main_menu
-theme: block__clean
-text: ''
-classes: ''

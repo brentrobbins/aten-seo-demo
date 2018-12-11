@@ -1,4 +1,4 @@
-uuid: c3b4c0ac-0da3-40b3-ac62-59b405aa1607
+uuid: 76f39fbc-9382-4c96-a7fe-b94b3b669420
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   module:
     - system
   theme:
-    - bootstrap4_aten
+    - bartik
 _core:
   default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
-id: bootstrap4_aten_main_menu
-theme: bootstrap4_aten
+id: bartik_main_menu
+theme: bartik
 region: primary_menu
 weight: 0
 provider: null

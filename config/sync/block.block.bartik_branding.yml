@@ -1,15 +1,15 @@
-uuid: f10a1f8e-8ecf-40d4-ac3f-7a58999acf8a
+uuid: e94a2833-07dd-48aa-ba48-d4c8de3bd4ab
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bootstrap_barrio
+    - bartik
 _core:
   default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
-id: bootstrap_barrio_branding
-theme: bootstrap_barrio
+id: bartik_branding
+theme: bartik
 region: header
 weight: 0
 provider: null
@@ -19,7 +19,7 @@ settings:
   label: 'Site branding'
   provider: system
   label_display: '0'
-  use_site_logo: true
+  use_site_logo: false
   use_site_name: true
-  use_site_slogan: true
+  use_site_slogan: false
 visibility: {  }
