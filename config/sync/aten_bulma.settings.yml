@@ -27,7 +27,7 @@ cdn:
   bulma:
     version: 0.7.2
   bulmaswatch:
-    version: ''
+    version: 0.7.2
     theme: litera
 _core:
   default_config_hash: r_svLE4JuR3NgvuTS24Nw2XtGreCE-Fv5Y9_jXBrCQk

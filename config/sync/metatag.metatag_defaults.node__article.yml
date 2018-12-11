@@ -1,0 +1,7 @@
+uuid: 0c4b7b70-f2c3-42be-bcce-522abf02a559
+langcode: en
+status: true
+dependencies: {  }
+id: node__article
+label: 'Content: Article'
+tags: {  }

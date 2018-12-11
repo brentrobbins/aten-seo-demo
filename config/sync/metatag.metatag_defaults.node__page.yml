@@ -1,0 +1,7 @@
+uuid: d1df2ff6-1f12-492c-9b4e-aedadcbb7499
+langcode: en
+status: true
+dependencies: {  }
+id: node__page
+label: 'Content: Basic page'
+tags: {  }
